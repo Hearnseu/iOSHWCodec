@@ -29,8 +29,8 @@ CMFormatDescriptionRef formatDescription;
 @property(nonatomic, strong) VTPCompressionSession *vtpCompressionSession;
 @property(nonatomic, strong) AVSampleBufferDisplayLayer *sampleLayer;
 @property(nonatomic, strong) AVCaptureVideoPreviewLayer *previewLayer;
-@property dispatch_queue_t compressionQueue;
-@property dispatch_queue_t videoOutputQueue;
+@property(nonatomic, strong) dispatch_queue_t compressionQueue;
+@property(nonatomic, strong) dispatch_queue_t videoOutputQueue;
 
 @end
 
