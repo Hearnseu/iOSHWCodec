@@ -1,2 +1,2 @@
 # hwCodec
-iOS video hardware encoding and decoding basic demo,for ios8.0 and above.
+An iOS video hardware encoding and decoding basic demo, for iOS8.0 and above.
